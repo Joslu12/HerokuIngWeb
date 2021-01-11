@@ -14,7 +14,7 @@ app.config['UPLOAD_FOLDER']  = UPLOAD_FOLDER
 #mongo = PyMongo(app)
 
 url_mongo_atlas = "mongodb+srv://root:root@cluster0.b3ou3.mongodb.net/prueba?retryWrites=true&w=majority"
-mongo = client.get_database('grafitis')
+mongo = client.get_database('prueba')
 
 ########################  Usuario  ########################
 
